@@ -30,13 +30,25 @@ JDK版本：JDK 1.8
 
 ### 3 数据库表设计
 
-![](./picture/关系表.png)
+<img src="./picture/关系表.png" style="zoom:80%;" />
 
 
 
+### 4 界面展示图
+
+管理员登陆界面
+
+<img src="./picture/管理员登录界面.png" style="zoom:80%;" />
+
+管理员界面
+
+<img src="./picture/管理员界面.png" style="zoom:80%;" />
+
+B/S架构下登录界面
+
+ <img src="./picture/登录界面bs.png" style="zoom:80%;" />
 
 
- 
 
 
 
