@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>b2fde5b2-7df5-4654-8178-9b75e4b39612.TABLE:LIBMANAGER.BOOK</OriginalElement>
+  <nodes>
+    <node x="273.6111111111111" y="-3.5">b2fde5b2-7df5-4654-8178-9b75e4b39612.TABLE:LIBMANAGER.MANAGER</node>
+    <node x="498.05555555555554" y="3.5">b2fde5b2-7df5-4654-8178-9b75e4b39612.TABLE:LIBMANAGER.OPERATE</node>
+    <node x="-54.0" y="221.5">b2fde5b2-7df5-4654-8178-9b75e4b39612.TABLE:LIBMANAGER.BOOK</node>
+    <node x="497.55555555555554" y="256.0">b2fde5b2-7df5-4654-8178-9b75e4b39612.TABLE:LIBMANAGER.STUDENT</node>
+    <node x="-57.0" y="-3.5">b2fde5b2-7df5-4654-8178-9b75e4b39612.TABLE:LIBMANAGER.MAINTAIN</node>
+    <node x="223.27777777777777" y="244.5">b2fde5b2-7df5-4654-8178-9b75e4b39612.TABLE:LIBMANAGER.BORROW</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="b2fde5b2-7df5-4654-8178-9b75e4b39612.TABLE:LIBMANAGER.OPERATE" target="b2fde5b2-7df5-4654-8178-9b75e4b39612.TABLE:LIBMANAGER.MANAGER" relationship="REFERENCES">
+      <point x="-85.49955555555556" y="0.0" />
+      <point x="336.111" y="78.0" />
+      <point x="-1.1111111109585181E-4" y="63.0" />
+    </edge>
+    <edge source="b2fde5b2-7df5-4654-8178-9b75e4b39612.TABLE:LIBMANAGER.MAINTAIN" target="b2fde5b2-7df5-4654-8178-9b75e4b39612.TABLE:LIBMANAGER.MANAGER" relationship="REFERENCES">
+      <point x="90.00044444444447" y="0.0" />
+      <point x="336.111" y="71.0" />
+      <point x="-1.1111111109585181E-4" y="63.0" />
+    </edge>
+    <edge source="b2fde5b2-7df5-4654-8178-9b75e4b39612.TABLE:LIBMANAGER.BORROW" target="b2fde5b2-7df5-4654-8178-9b75e4b39612.TABLE:LIBMANAGER.BOOK" relationship="REFERENCES">
+      <point x="2.2222222224854704E-4" y="-86.0" />
+      <point x="307.278" y="330.5" />
+      <point x="33.0" y="330.5" />
+      <point x="0.0" y="-97.5" />
+    </edge>
+    <edge source="b2fde5b2-7df5-4654-8178-9b75e4b39612.TABLE:LIBMANAGER.MAINTAIN" target="b2fde5b2-7df5-4654-8178-9b75e4b39612.TABLE:LIBMANAGER.BOOK" relationship="REFERENCES">
+      <point x="4.444444444544615E-4" y="74.5" />
+      <point x="33.000444444444454" y="170.0" />
+      <point x="33.0" y="170.0" />
+      <point x="0.0" y="-97.5" />
+    </edge>
+    <edge source="b2fde5b2-7df5-4654-8178-9b75e4b39612.TABLE:LIBMANAGER.BORROW" target="b2fde5b2-7df5-4654-8178-9b75e4b39612.TABLE:LIBMANAGER.STUDENT" relationship="REFERENCES">
+      <point x="84.00022222222225" y="0.0" />
+      <point x="583.556" y="330.5" />
+      <point x="4.444444444970941E-4" y="-74.5" />
+    </edge>
+    <edge source="b2fde5b2-7df5-4654-8178-9b75e4b39612.TABLE:LIBMANAGER.OPERATE" target="b2fde5b2-7df5-4654-8178-9b75e4b39612.TABLE:LIBMANAGER.STUDENT" relationship="REFERENCES">
+      <point x="4.444444444970941E-4" y="74.5" />
+      <point x="4.444444444970941E-4" y="-74.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="304.0" y="206.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+

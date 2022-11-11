@@ -1,0 +1,29 @@
+*{
+    font-size: 25px;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* 按照列column(垂直方向)排列*/
+    font-size: 30px;
+    background-image: url("../image/home.jpg");
+    background-size:cover;
+}
+table {
+    margin: auto;
+    background-color:#FFFFFF80;
+}
+
+#left{
+    float: left;
+    margin-bottom: 20px;
+}
+#right{
+    float: right;
+    margin-bottom: 20px;
+    height:10px;
+}
+.child{
+    margin-top: 150px;
+}

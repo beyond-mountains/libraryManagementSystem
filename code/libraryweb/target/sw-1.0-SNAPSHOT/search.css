@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* 按照列column(垂直方向)排列*/
+    font-size: 20px;
+    background-image: url("webapp/home.jpg");
+    background-size:cover;
+}
+table {
+    margin: auto;
+}
+#sear{
+    margin-bottom: 100px;
+}
+#left{
+    float: left;
+    margin-bottom: 20px;
+}
+#right{
+    float: right;
+    margin-bottom: 20px;
+
+}
