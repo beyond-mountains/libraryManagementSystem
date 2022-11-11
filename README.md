@@ -2,7 +2,7 @@
 
 
 
-#### 1 功能模块
+### 1 功能模块
 
 C/S  (Client/Server) ：
 
@@ -12,7 +12,7 @@ B/S  (Browser/Server)：
 
 ![](./picture/功能模块bs.png)
 
-#### 2 实验环境
+### 2 实验环境
 
 数据库：Oracle 11g
 
@@ -28,7 +28,7 @@ JDK版本：JDK 1.8
 
 
 
-#### 3 数据库表设计
+### 3 数据库表设计
 
 ![](./picture/关系表.png)
 
